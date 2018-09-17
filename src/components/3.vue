@@ -60,5 +60,7 @@ export default {
   margin-right: 2%;
   margin-top: 2%;
   border: none;
+  filter: brightness(0.04);
+  -webkit-filter: brightness(0.04);
 }
 </style>
