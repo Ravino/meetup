@@ -5,11 +5,11 @@ div
 
 
   div.row
-    div(role = "list")
-      div(role = "listitem") printf ("Программист?")
-      div(role = "listitem") System. out. println ("Я программист?");
-      div(role = "listitem") console. log ("Программист.");
-      div(role = "listitem") print ("Да! Я программист!");
+    pre
+      | printf ("Программист?")
+      | System. out. println ("Я программист?");
+      | console. log ("Программист.");
+      | print ("Да! Я программист!");
 
 </template>
 
