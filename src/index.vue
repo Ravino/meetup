@@ -11,6 +11,10 @@ export default {
 
 
 <style>
+body {
+  margin: 0;
+  background-color: black;
+}
 
 .page {
   font-family: sans-serif;
@@ -19,7 +23,7 @@ export default {
   background: black;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  padding: 1em;
 }
 
 
