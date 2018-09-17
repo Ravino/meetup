@@ -1,7 +1,7 @@
 <template lang = "pug">
 
 div
-  h1 разработка протезов
+  h1 Разработка протезов
 
 
   div.row

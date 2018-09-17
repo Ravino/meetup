@@ -1,7 +1,7 @@
 <template lang = "pug">
 
 div
-  h1 как пишу фронтенд
+  h1 Как пишу фронтенд
 
 
   div.row
