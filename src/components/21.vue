@@ -5,14 +5,14 @@ div
 
 
   div.row
-    div(role = "list")
-      div(role = "listitem") kremlen.ru
-      div(role = "listitem") Yandex
-      СберБанк
-      div(role = "listitem") HTML Academy
-      div(role = "listitem") GitHub
-      div(role = "listitem") Twitter
-      div(role = "listitem") Pepelsbey.net
+    ul(role = "list")
+      li(role = "listitem") kremlen.ru
+      li(role = "listitem") Yandex
+      li(role = "listitem") СберБанк
+      li(role = "listitem") HTML Academy
+      li(role = "listitem") GitHub
+      li(role = "listitem") Twitter
+      li(role = "listitem") Pepelsbey.net
 
 </template>
 

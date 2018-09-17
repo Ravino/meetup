@@ -5,13 +5,13 @@ div
 
 
   div.row
-    div(role = "list")
-      div(role = "listitem")  NodeJS
-      div(role = "listitem") WebPack
-      div(role = "listitem") Vue.js
-      div(role = "listitem") postcss
-      div(role = "listitem") eslint
-      div(role = "listitem") PUG
+    ul(role = "list")
+      li(role = "listitem") NodeJS
+      li(role = "listitem") WebPack
+      li(role = "listitem") Vue.js
+      li(role = "listitem") postcss
+      li(role = "listitem") eslint
+      li(role = "listitem") PUG
 
 </template>
 

@@ -5,13 +5,13 @@ div
 
 
   div.row
-    div(role = "list")
-      div(role = "listitem") OS linux
-      div(role = "listitem")  ScreenReader ORCA
-      div(role = "listitem") Gedit
-      div(role = "listitem") WaterFox
-      div(role = "listitem") Audacious
-      Libreoffice
+    ul(role = "list")
+      li(role = "listitem") OS linux
+      li(role = "listitem") ScreenReader ORCA
+      li(role = "listitem") Gedit
+      li(role = "listitem") WaterFox
+      li(role = "listitem") Audacious
+      li(role = "listitem") Libreoffice
 
 </template>
 

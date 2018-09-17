@@ -5,16 +5,16 @@ div
 
 
   div.row
-    div(role = "list")
-      div(role = "listitem")  NodeJS
-      div(role = "listitem") Django Python
-      div(role = "listitem") PostGreSql
-      Redis
-      div(role = "listitem") ElasticSearch
-      div(role = "listitem") Nginx
-      div(role = "listitem") Scala
-      div(role = "listitem") Express.js
-      div(role = "listitem") eslint
+    ul(role = "list")
+      li(role = "listitem") NodeJS
+      li(role = "listitem") Django Python
+      li(role = "listitem") PostGreSql
+      li(role = "listitem") Redis
+      li(role = "listitem") ElasticSearch
+      li(role = "listitem") Nginx
+      li(role = "listitem") Scala
+      li(role = "listitem") Express.js
+      li(role = "listitem") eslint
 
 </template>
 
