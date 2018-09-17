@@ -9,11 +9,20 @@ div
       img.screenshotGithub_photo(src = "./1/github.jpg", alt = "Скриншот github")
 
 
-    div.contacts(role = "list")
-      div(role = "listitem") github: www.github.com/Ravino
-      div(role = "listitem") ВКонтакте: www.vk.com/ravino_doul
-      div(role = "listitem") Телефон: +7-914-968-93-21
-      div(role = "listitem") WhatsApp: +7-999-057-85-48
+    div.contacts
+      table
+        tr
+          td github:
+          td www.github.com/Ravino
+        tr
+          td ВКонтакте:
+          td www.vk.com/ravino_doul
+        tr
+          td Телефон:
+          td +7-914-968-93-21
+        tr
+          td WhatsApp:
+          td +7-999-057-85-48
 
 </template>
 

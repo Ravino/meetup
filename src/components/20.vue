@@ -5,12 +5,22 @@ div
 
 
   div.row
-    div(role = "list")
-      div(role = "listitem")  ORCA www.github.com/GNOME/orca
-      div(role = "listitem") JAWS www.freedomscientific.com
-      div(role = "listitem") NVDA www.nvaccess.org
-      div(role = "listitem") wcag www.w3.org
-      div(role = "listitem") w3c www.w3c.org
+    table
+      tr
+        td ORCA
+        td www.github.com/GNOME/orca
+      tr
+        td JAWS
+        td www.freedomscientific.com
+      tr
+        td NVDA
+        td www.nvaccess.org
+      tr
+        td wcag
+        td www.w3.org
+      tr
+        td w3c
+        td www.w3c.org
 
 </template>
 
