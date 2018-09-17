@@ -37,6 +37,6 @@ body {
 
   h1 {
     color: red;
-    text-align: justify;
+    text-align: center;
   }
 </style>
