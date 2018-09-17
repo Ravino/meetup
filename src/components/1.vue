@@ -40,7 +40,6 @@ export default {
 
 .screenshotGithub_photo {
   min-width: 45%;
-  max-width: 45%;
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 2%;
