@@ -6,7 +6,7 @@ div
 
   div.row
     div.screenshot1
-      img.screenshot1_photo(src = "./11/screenshot1.jpg", alt = "screenshot1")
+      img.screenshot1_photo(src = "./11/screenshot1.png", alt = "screenshot1")
 
 </template>
 
