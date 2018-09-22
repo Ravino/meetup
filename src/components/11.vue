@@ -27,7 +27,6 @@ export default {
 
 .screenshot1 {
   min-width: 45%;
-  max-width: 45%;
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 2%;
@@ -36,7 +35,6 @@ export default {
 
 .screenshot1_photo {
   min-width: 45%;
-  max-width: 45%;
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 2%;
@@ -46,7 +44,6 @@ export default {
 
 .screenshot2 {
   min-width: 45%;
-  max-width: 45%;
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 2%;
@@ -55,7 +52,6 @@ export default {
 
 .screenshot2_photo {
   min-width: 45%;
-  max-width: 45%;
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 2%;
