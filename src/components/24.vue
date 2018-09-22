@@ -1,21 +1,14 @@
 <template lang = "pug">
 
 div
-  h1 Разработка протезов
+  h1 Какие устройства позволяют делать доступный мир
 
 
   div.row
-    div.column1
-      img.column1_photo1(src = "./24/photo1.jpg", alt = "Photo1")
-
-      img.column1_photo2(src = "./24/photo2.jpg", alt = "Photo2")
-
-
-
-    div.column2
-      img.column2_photo1(src = "./24/photo3.jpg", alt = "photo3")
-
-      img.column2_photo2(src = "./24/photo4.jpg", alt = "photo4")
+    ul(role = "list")
+      li(role = "listitem") Leap Motion
+      li(role = "listitem") Kinect
+      li(role = "listitem") Magic Myo Armband
 
 </template>
 

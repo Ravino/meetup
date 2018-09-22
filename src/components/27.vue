@@ -1,11 +1,11 @@
 <template lang = "pug">
 
 div
-  h1 Вывод
+  h1 Myo armband -- почувствуй себя богом
 
 
   div.row
-    div Мораль, рынок, комфорт, пользователи, прибыль
+    div Демонстрация 
 
 </template>
 

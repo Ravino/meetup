@@ -1,14 +1,11 @@
 <template lang = "pug">
 
 div
-  h1 Какие устройства позволяют делать доступный мир
+  h1 Что мотивировало перечисленные компании заниматься доступностью
 
 
   div.row
-    ul(role = "list")
-      li(role = "listitem") Leap Motion
-      li(role = "listitem") Kinect
-      li(role = "listitem") Magic Myo Armband
+    div Мораль -> повышение количества пользователей -> увеличение долей рынков, выход на новые рынки -> престиж, статус.
 
 </template>
 

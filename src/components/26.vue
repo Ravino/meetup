@@ -1,11 +1,12 @@
 <template lang = "pug">
 
 div
-  h1 Myo armband -- почувствуй себя богом
+  h1 Что такое Myo Armband
 
 
   div.row
-    div Демонстрация 
+    div.myo
+      img.myo_photo(alt = "Photo myo armband") 
 
 </template>
 

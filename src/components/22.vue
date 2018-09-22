@@ -1,11 +1,18 @@
 <template lang = "pug">
 
 div
-  h1 Что мотивировало перечисленные компании заниматься доступностью
+  h1 Список компаний которые заботятся о доступности
 
 
   div.row
-    div Мораль -> повышение количества пользователей -> увеличение долей рынков, выход на новые рынки -> престиж, статус.
+    ul(role = "list")
+      li(role = "listitem") kremlen.ru
+      li(role = "listitem") Yandex
+      li(role = "listitem") СберБанк
+      li(role = "listitem") HTML Academy
+      li(role = "listitem") GitHub
+      li(role = "listitem") Twitter
+      li(role = "listitem") Pepelsbey.net
 
 </template>
 

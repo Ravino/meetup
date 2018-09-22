@@ -1,18 +1,26 @@
 <template lang = "pug">
 
 div
-  h1 Список компаний которые заботятся о доступности
+  h1 Инструменты для реализации доступных веб-интерфейсов
 
 
   div.row
-    ul(role = "list")
-      li(role = "listitem") kremlen.ru
-      li(role = "listitem") Yandex
-      li(role = "listitem") СберБанк
-      li(role = "listitem") HTML Academy
-      li(role = "listitem") GitHub
-      li(role = "listitem") Twitter
-      li(role = "listitem") Pepelsbey.net
+    table
+      tr
+        td ORCA
+        td www.github.com/GNOME/orca
+      tr
+        td JAWS
+        td www.freedomscientific.com
+      tr
+        td NVDA
+        td www.nvaccess.org
+      tr
+        td wcag
+        td www.w3.org
+      tr
+        td w3c
+        td www.w3c.org
 
 </template>
 

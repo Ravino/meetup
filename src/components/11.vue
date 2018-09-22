@@ -8,10 +8,6 @@ div
     div.screenshot1
       img.screenshot1_photo(src = "./11/screenshot1.jpg", alt = "screenshot1")
 
-
-    div.screenshot2
-      img.screenshot2_photo(src = "./11/screenshot2.jpg", alt = "Screenshot2")
-
 </template>
 
 

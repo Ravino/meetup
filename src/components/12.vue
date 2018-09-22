@@ -1,13 +1,12 @@
 <template lang = "pug">
 
 div
-  h1 Что такое доступность
+  h1 Как я стал специализироваться в области доступных интерфейсов
 
 
   div.row
-    div.
-       Доступ к информации (англ. access to information) — возможность получения информации и её использования.
-       Доступ (в автоматизированной информационной системе) (англ. access) — получение возможности ознакомления с информацией, её обработки и (или) воздействия на информацию и (или) ресурсы автоматизированной информационной системы с использованием программных и (или) технических средств.
+    div.screenshot2
+      img.screenshot2_photo(src = "./12/screenshot2.jpg", alt = "Screenshot2")
 
 </template>
 
@@ -17,3 +16,41 @@ export default {
   "name": "12",
 };
 </script>
+
+
+
+<style scoped>
+
+.screenshot1 {
+  min-width: 45%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+
+.screenshot1_photo {
+  min-width: 45%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  border: none;
+}
+
+
+.screenshot2 {
+  min-width: 45%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+
+.screenshot2_photo {
+  min-width: 45%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  border: none;
+}
+</style>
