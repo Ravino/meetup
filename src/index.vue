@@ -1,5 +1,5 @@
 <template lang="pug">
-div.page
+div.page(aria-live = "assertive")
   router-view
 </template>
 

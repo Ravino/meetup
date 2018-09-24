@@ -28,16 +28,15 @@ let countPath = 1;
   "router": router,
   "render": h => h (index),
 
-  "created": function () {
+  "created": function created () {
 
-    //    alert ("1");
 
     const poll = () => {
 
       this. $http. get ("http://localhost:3000/poll"). then ((res) => {
 
         //        alert (JSON. stringify (res));
-        if (res. data === "fist") {
+        if (res. data === "wavein") {
 
           if (countPath === configRouter (). routes. length - 1) countPath = 0;
           countPath += 1;
@@ -61,7 +60,6 @@ let countPath = 1;
 
       () => {
 
-        //        alert (JSON. stringify (err));
         poll ();
 
       });

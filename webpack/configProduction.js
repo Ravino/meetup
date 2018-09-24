@@ -123,10 +123,24 @@ module. exports = () => {
           "exclude": /node_modules/,
         },
 
+
         {
           "test": /\.css$/,
-          "loader": "postcss-loader",
+          "use": [
+            "vue-style-loader",
+            {
+              "loader": "css-loader",
+              "options": { "importLoaders": 1, },
+            },
+            "postcss-loader",
+          ],
           "exclude": /node_modules/,
+        },
+
+
+        {
+          "test": /\.(png|jpg|gif)$/,
+          "loader": "file-loader",
         },
       ],
     },
